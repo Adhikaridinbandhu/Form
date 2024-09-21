@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="container form-wrapper" id="registrationForm">
+      <h1>Personal Details</h1>
+      <div class="mb-3">
+        <label for="exampleInputName1" class="form-label">Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="exampleInputName1"
+          aria-describedby="nameHelp"
+          required
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputAddress1" class="form-label">Address</label>
+        <input
+          type="text"
+          class="form-control"
+          id="exampleInputAddress1"
+          aria-describedby="AddressHelp"
+          required
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPhone1" class="form-label">Phone no.</label>
+        <input
+          type="text"
+          class="form-control"
+          id="exampleInputPhone1"
+          aria-describedby="phoneHelp"
+          required
+        />
+      </div>
+      <button type="submit" class="btn btn-primary" id="btn-submit">
+        Submit
+      </button>
+    </form>
+    <div
+      class="card-wrapper container d-flex"
+      style="flex-wrap: wrap"
+      id="card-wrapper"
+    >
+      <div class="card" style="width: 18rem" id="card-body">
+        <img
+          src="https://images.unsplash.com/photo-1719937206498-b31844530a96?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D"
+          class="card-img-top"
+          alt="image data"
+        />
+        <div class="card-body" id="card-data">
+          <p class="card-text"><strong>Name: </strong>Din Bandhu Adhikari</p>
+          s
+          <p class="card-text"><strong>Address: </strong>Galyang</p>
+          <p class="card-text"><strong>Email: </strong>abcdjpt@gmail.com</p>
+          <p class="card-text"><strong>Phone no: </strong>9846902145</p>
+          <div class="btn-wrapper">
+            <a href="#" class="btn btn-primary">Edit Data</a>
+            <a href="#" class="btn btn-danger">Delete</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
