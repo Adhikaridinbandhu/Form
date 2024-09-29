@@ -36,7 +36,6 @@ const FormComponent = ({ onSubmit, isEditing, formData, handleChange }) => {
           value={formData.address}
           onChange={handleChange}
           aria-describedby="AddressHelp"
-          required
         />
       </div>
       <div className="mb-3">
@@ -65,7 +64,6 @@ const FormComponent = ({ onSubmit, isEditing, formData, handleChange }) => {
           value={formData.phone}
           onChange={handleChange}
           aria-describedby="phoneHelp"
-          required
         />
       </div>
       <button type="submit" className="btn btn-primary" id="btn-submit">
