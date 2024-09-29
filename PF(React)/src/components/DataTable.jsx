@@ -52,7 +52,7 @@ const DataTable = ({ items, handleEdit, handleDelete }) => {
       ))}
     </div>
   ) : (
-    <p>No data submitted yet</p>
+    <p className="no-data-para">No data submitted yet</p>
   );
 };
 

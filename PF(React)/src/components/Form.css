@@ -15,12 +15,13 @@ h1 {
   margin-bottom: 20px;
 }
 .form-wrapper {
-  width: 70%;
+  width: 100%;
 }
 .form-wrapper label {
   font-weight: 600;
   width: 50vh;
 }
+
 .card-wrapper {
   display: flex;
   flex-direction: row;
@@ -42,4 +43,16 @@ h1 {
   margin-top: 10px;
   display: flex;
   justify-content: space-around;
+}
+.no-data-para {
+  font-size: 1.2rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  padding: 5px;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  background-color: #5a9bd5;
+  width: 100%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
